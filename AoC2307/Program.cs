@@ -37,7 +37,11 @@ class Program
         {
             var ranks when ranks.Count == 5 => "High Card",
             var ranks when ranks[0].Count == 4 => "Four of a Kind",
-            //Add rest of cards
+            var ranks when ranks[0].Count == 3 && ranks[1].Count == 2 => "Full House",
+            var ranks when ranks[0].Count == 3 => "Three of a Kind",
+            var ranks when ranks[0].Count == 2 && ranks[1].Count == 2 => "Two Pair",
+            var ranks when ranks[0].Count == 2 => "One Pair",
+            var ranks when ranks.Count == 5 => "High Card",
         };
     }
 
