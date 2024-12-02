@@ -22,12 +22,35 @@ const App: React.FC = () => {
       const hands = parseInput(input);
       console.log(hands)
       setInputData(hands);
-      // const winnings = calculateWinnings(hands);
-      // setTotalWinnings(winnings);
+      const winnings = calculateWinnings(hands);
+      setTotalWinnings(winnings);
+      console.log(winnings) //doesnt work winnings is 0, maybe parse is wrong
     } catch (error) {
       console.error('Error parsing input:', error);
       setInputData([]); // Reset data on parse failure
     }
+  };
+
+  // Example rules for calculating winnings
+  const handValues: { [key: string]: number } = {
+    "Royal Flush": 100,
+    "Straight Flush": 75,
+    "Four of a Kind": 50,
+    "Full House": 25,
+    "Flush": 20,
+    "Straight": 15,
+    "Three of a Kind": 10,
+    "Two Pair": 5,
+    "One Pair": 2,
+    "High Card": 1,
+  };
+
+  const calculateWinnings = (hands: HandData[]): number => {
+    return hands.reduce((total, handData) => {
+      const handValue = handValues[handData.hand] || 0;
+      console.log(`Hand: ${handData.hand}, Hand Value: ${handValue}, Bid: ${handData.bid}`);
+      return total + handValue * handData.bid;
+    }, 0);
   };
 
   return (
@@ -54,9 +77,9 @@ const App: React.FC = () => {
       </div>
 
       {/* Uncomment and use if you calculate winnings */}
-      {/* <div className="winnings">
+      <div className="winnings">
         <h2>Total Winnings: {totalWinnings}</h2>
-      </div> */}
+      </div> 
     </div>
   );
 };
