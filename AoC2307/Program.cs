@@ -7,7 +7,11 @@ class Program
     {
         string[] possibleCards = { "A", "K", "Q", "J", "T", "9", "8", "7", "6", "5", "4", "3", "2" };
 
-        GetAHandOfRandomCards(possibleCards, 5);
+       string[] hand = GetAHandOfRandomCards(possibleCards, 5);
+       Console.WriteLine(string.Join("", hand) + " : " + GetHandType(hand));
+
+       long totalWinnings = CalculateTotalWinnings(input);
+       Console.WriteLine($"Total winnings: {totalWinnings}");
     }
 
     static string[] GetAHandOfRandomCards(string[] deck, int count)

@@ -8,26 +8,28 @@
     "net8.0": []
   },
   "packageFolders": {
-    "/home/kimi/.nuget/packages/": {}
+    "C:\\Users\\gustav.franchell\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/kimi/project/techevo/Forefront.TechEvolution7.VikaGubbe/AoC2307/AoC2307.csproj",
+      "projectUniqueName": "C:\\Users\\gustav.franchell\\OneDrive - Forefront Consulting\\Dokument\\CodeIsPresident\\branch2vikagubbe\\AoC2307\\AoC2307.csproj",
       "projectName": "AoC2307",
-      "projectPath": "/home/kimi/project/techevo/Forefront.TechEvolution7.VikaGubbe/AoC2307/AoC2307.csproj",
-      "packagesPath": "/home/kimi/.nuget/packages/",
-      "outputPath": "/home/kimi/project/techevo/Forefront.TechEvolution7.VikaGubbe/AoC2307/obj/",
+      "projectPath": "C:\\Users\\gustav.franchell\\OneDrive - Forefront Consulting\\Dokument\\CodeIsPresident\\branch2vikagubbe\\AoC2307\\AoC2307.csproj",
+      "packagesPath": "C:\\Users\\gustav.franchell\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\gustav.franchell\\OneDrive - Forefront Consulting\\Dokument\\CodeIsPresident\\branch2vikagubbe\\AoC2307\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/kimi/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\gustav.franchell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "https://api.nuget.org/v3/index.json": {},
-        "https://nuget.pkg.github.com/The-Bucket-Pros/index.json": {}
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
@@ -39,6 +41,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -60,7 +67,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.110/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
