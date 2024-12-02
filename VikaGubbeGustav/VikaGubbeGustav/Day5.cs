@@ -13,4 +13,6 @@ public class Day5
         List<long> seeds = seedStrings.Select(long.Parse).ToList();
     }
 
+    //Sorry i didnt understand the task ¯\_( :( )_/¯
+
 }
