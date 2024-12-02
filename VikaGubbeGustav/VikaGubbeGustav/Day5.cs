@@ -30,5 +30,16 @@ public class Day5
     }
 
     //Sorry i didnt understand the task ¯\_( :( )_/¯
+    public static long ConvertSeedToSoil(long seed, List<(int destStart, int srcStart, int length)> seedToSoilMap)
+    {
+        foreach (var (destStart, srcStart, length) in seedToSoilMap)
+        {
+            if (seed >= srcStart && seed < srcStart + length)
+            {
+                return destStart + (seed - srcStart);
+            }
+        }
+        return seed;
+    } 
 
 }
