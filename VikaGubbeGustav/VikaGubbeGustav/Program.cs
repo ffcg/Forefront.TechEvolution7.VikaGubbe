@@ -34,9 +34,14 @@ class Monkey
             int currentItem = StartingItems[i];
             Console.WriteLine($"Monkey inspects item with worry level: {currentItem}");
         }
-
+        
         // Clear items after inspection
         StartingItems.Clear();
+    }
+
+    public void Round0()
+    {
+        
     }
 
 }
