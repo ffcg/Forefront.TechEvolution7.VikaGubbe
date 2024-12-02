@@ -12,3 +12,15 @@ export function determineType(hand: string) {
     }
   }
 }
+export function alphabetToNumber(char: string) {
+  //this one should return the number value of the card
+  const cardValues: Record<string, number> = {
+    A: 14,
+    K: 13,
+    Q: 12,
+    J: 11,
+    T: 10,
+  };
+
+  return cardValues[char] || parseInt(char);
+}
