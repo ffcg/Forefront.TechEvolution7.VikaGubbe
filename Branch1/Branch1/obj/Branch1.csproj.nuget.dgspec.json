@@ -1,21 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/martanorman/Documents/Code is President/VikaGubbe/Forefront.TechEvolution7.VikaGubbe/Branch1/Branch1/Branch1.csproj": {}
+    "/Users/vilma/Documents/CiD/Forefront.TechEvolution7.VikaGubbe/Branch1/Branch1/Branch1.csproj": {}
   },
   "projects": {
-    "/Users/martanorman/Documents/Code is President/VikaGubbe/Forefront.TechEvolution7.VikaGubbe/Branch1/Branch1/Branch1.csproj": {
+    "/Users/vilma/Documents/CiD/Forefront.TechEvolution7.VikaGubbe/Branch1/Branch1/Branch1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/martanorman/Documents/Code is President/VikaGubbe/Forefront.TechEvolution7.VikaGubbe/Branch1/Branch1/Branch1.csproj",
+        "projectUniqueName": "/Users/vilma/Documents/CiD/Forefront.TechEvolution7.VikaGubbe/Branch1/Branch1/Branch1.csproj",
         "projectName": "Branch1",
-        "projectPath": "/Users/martanorman/Documents/Code is President/VikaGubbe/Forefront.TechEvolution7.VikaGubbe/Branch1/Branch1/Branch1.csproj",
-        "packagesPath": "/Users/martanorman/.nuget/packages/",
-        "outputPath": "/Users/martanorman/Documents/Code is President/VikaGubbe/Forefront.TechEvolution7.VikaGubbe/Branch1/Branch1/obj/",
+        "projectPath": "/Users/vilma/Documents/CiD/Forefront.TechEvolution7.VikaGubbe/Branch1/Branch1/Branch1.csproj",
+        "packagesPath": "/Users/vilma/.nuget/packages/",
+        "outputPath": "/Users/vilma/Documents/CiD/Forefront.TechEvolution7.VikaGubbe/Branch1/Branch1/obj/",
         "projectStyle": "PackageReference",
-        "UsingMicrosoftNETSdk": false,
         "configFilePaths": [
-          "/Users/martanorman/.nuget/NuGet/NuGet.Config"
+          "/Users/vilma/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -59,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.402/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

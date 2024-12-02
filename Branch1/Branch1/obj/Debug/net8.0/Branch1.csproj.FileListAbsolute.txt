@@ -1,0 +1,12 @@
+/Users/vilma/Documents/CiD/Forefront.TechEvolution7.VikaGubbe/Branch1/Branch1/bin/Debug/net8.0/Branch1.deps.json
+/Users/vilma/Documents/CiD/Forefront.TechEvolution7.VikaGubbe/Branch1/Branch1/bin/Debug/net8.0/Branch1.dll
+/Users/vilma/Documents/CiD/Forefront.TechEvolution7.VikaGubbe/Branch1/Branch1/bin/Debug/net8.0/Branch1.pdb
+/Users/vilma/Documents/CiD/Forefront.TechEvolution7.VikaGubbe/Branch1/Branch1/obj/Debug/net8.0/Branch1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/vilma/Documents/CiD/Forefront.TechEvolution7.VikaGubbe/Branch1/Branch1/obj/Debug/net8.0/Branch1.AssemblyInfoInputs.cache
+/Users/vilma/Documents/CiD/Forefront.TechEvolution7.VikaGubbe/Branch1/Branch1/obj/Debug/net8.0/Branch1.AssemblyInfo.cs
+/Users/vilma/Documents/CiD/Forefront.TechEvolution7.VikaGubbe/Branch1/Branch1/obj/Debug/net8.0/Branch1.csproj.CoreCompileInputs.cache
+/Users/vilma/Documents/CiD/Forefront.TechEvolution7.VikaGubbe/Branch1/Branch1/obj/Debug/net8.0/Branch1.sourcelink.json
+/Users/vilma/Documents/CiD/Forefront.TechEvolution7.VikaGubbe/Branch1/Branch1/obj/Debug/net8.0/Branch1.dll
+/Users/vilma/Documents/CiD/Forefront.TechEvolution7.VikaGubbe/Branch1/Branch1/obj/Debug/net8.0/refint/Branch1.dll
+/Users/vilma/Documents/CiD/Forefront.TechEvolution7.VikaGubbe/Branch1/Branch1/obj/Debug/net8.0/Branch1.pdb
+/Users/vilma/Documents/CiD/Forefront.TechEvolution7.VikaGubbe/Branch1/Branch1/obj/Debug/net8.0/ref/Branch1.dll
