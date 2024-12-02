@@ -7,7 +7,7 @@
 - Jobba vidare på den uppgiften och koden som är där. 
 - Efter ytterligare 10 minuter, pusha och byt till nästa branch.
 
-# Uppgift
+# Uppgift - Frön
 
 Uppgiften i den här branchen är att lösa Advent of Code, Dag 5 år 2023.
 https://adventofcode.com/2023/day/5
