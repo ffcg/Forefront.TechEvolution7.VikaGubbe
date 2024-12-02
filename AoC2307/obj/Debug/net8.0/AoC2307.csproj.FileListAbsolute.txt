@@ -1,0 +1,15 @@
+/home/kimi/project/techevo/Forefront.TechEvolution7.VikaGubbe/AoC2307/bin/Debug/net8.0/AoC2307
+/home/kimi/project/techevo/Forefront.TechEvolution7.VikaGubbe/AoC2307/bin/Debug/net8.0/AoC2307.deps.json
+/home/kimi/project/techevo/Forefront.TechEvolution7.VikaGubbe/AoC2307/bin/Debug/net8.0/AoC2307.runtimeconfig.json
+/home/kimi/project/techevo/Forefront.TechEvolution7.VikaGubbe/AoC2307/bin/Debug/net8.0/AoC2307.dll
+/home/kimi/project/techevo/Forefront.TechEvolution7.VikaGubbe/AoC2307/bin/Debug/net8.0/AoC2307.pdb
+/home/kimi/project/techevo/Forefront.TechEvolution7.VikaGubbe/AoC2307/obj/Debug/net8.0/AoC2307.GeneratedMSBuildEditorConfig.editorconfig
+/home/kimi/project/techevo/Forefront.TechEvolution7.VikaGubbe/AoC2307/obj/Debug/net8.0/AoC2307.AssemblyInfoInputs.cache
+/home/kimi/project/techevo/Forefront.TechEvolution7.VikaGubbe/AoC2307/obj/Debug/net8.0/AoC2307.AssemblyInfo.cs
+/home/kimi/project/techevo/Forefront.TechEvolution7.VikaGubbe/AoC2307/obj/Debug/net8.0/AoC2307.csproj.CoreCompileInputs.cache
+/home/kimi/project/techevo/Forefront.TechEvolution7.VikaGubbe/AoC2307/obj/Debug/net8.0/AoC2307.sourcelink.json
+/home/kimi/project/techevo/Forefront.TechEvolution7.VikaGubbe/AoC2307/obj/Debug/net8.0/AoC2307.dll
+/home/kimi/project/techevo/Forefront.TechEvolution7.VikaGubbe/AoC2307/obj/Debug/net8.0/refint/AoC2307.dll
+/home/kimi/project/techevo/Forefront.TechEvolution7.VikaGubbe/AoC2307/obj/Debug/net8.0/AoC2307.pdb
+/home/kimi/project/techevo/Forefront.TechEvolution7.VikaGubbe/AoC2307/obj/Debug/net8.0/AoC2307.genruntimeconfig.cache
+/home/kimi/project/techevo/Forefront.TechEvolution7.VikaGubbe/AoC2307/obj/Debug/net8.0/ref/AoC2307.dll
