@@ -8,9 +8,8 @@ namespace TestMonkeybranch3
         }
 
         [Test]
-        public void Test1()
+        public void ShouldInitializeCorrectly()
         {
-            Assert.Pass();
-        }
+            var startingItems = new List<int> { 79, 98 };      
     }
 }

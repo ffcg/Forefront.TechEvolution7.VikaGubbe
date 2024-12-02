@@ -51,6 +51,7 @@ class Monkey
     public Func<int, bool> Test { get; set; }
     public int TrueMonkey { get; set; }
     public int FalseMonkey { get; set; } 
+    public int InspectionCount { get; private set; }
 
     public Monkey(List<int> startingItems, Func<int, int> operation, Func<int, bool> test, int trueMonkey, int falseMonkey)
     {
@@ -59,6 +60,7 @@ class Monkey
         Test = test;
         TrueMonkey = trueMonkey;
         FalseMonkey = falseMonkey;
+        InspectionCount = 0;
     }
 
     public void InspectItems()

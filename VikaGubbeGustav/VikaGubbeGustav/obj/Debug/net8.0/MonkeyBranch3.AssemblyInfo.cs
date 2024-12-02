@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MonkeyBranch3")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+363f630d81598ba85070c265872832e684711348")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5ac2434fb054f259112bc5527e28833525c71be7")]
 [assembly: System.Reflection.AssemblyProductAttribute("MonkeyBranch3")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MonkeyBranch3")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
