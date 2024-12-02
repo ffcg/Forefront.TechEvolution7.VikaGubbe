@@ -7,6 +7,14 @@ function createMonkey(startingItems, operation, test, ifTrue, ifFalse) {
     inspections: 0,
   };
 }
+//Get data from txt file
+const fs = require('fs');
+fs.readFile('monkeys.txt', 'utf8', (err, data) => {
+  if(err) {
+    console.error("Failed to read the file:", err);
+    return;
+  }
+})
 
 const monkey0 = createMonkey(
   [79, 98],
@@ -39,9 +47,9 @@ const monkey3 = createMonkey(
   0,
   1
 );
-
+const monkeys = [monkey0, monkey1, monkey2, monkey3];
 // Started to simulate rounds to test
-for (let round = 0; round < 100; round++) {
+for (let round = 0; round < 20; round++) {
   for (const monkey of monkeys) {
     const newItems = [];
 
@@ -54,3 +62,9 @@ for (let round = 0; round < 100; round++) {
     monkey.items = newItems;
   }
 }
+
+const monkeyInspections = monkeys.map(monkey => monkey.inspections);
+monkeyInspections.sort((a, b) => b - a);
+const monkeyBusiness = monkeyInspections[0] * monkeyInspections[1];
+
+console.log("Monkey Business:", monkeyBusiness);
