@@ -25,6 +25,21 @@ class Program
     }
 
     // Function to look at a hand and output its "type" according to the advent of code assignment
+    static string GetHandType(string[] hand)
+    {
+        var cardRanks = hand.GroupBy(card => card)
+                            .Select(group => new { Card = group.Key, Count = group.Count() })
+                            .OrderByDescending(group => group.Count)
+                            .ThenByDescending(group => group.Card)
+                            .ToList();
+
+        return cardRanks switch
+        {
+            var ranks when ranks.Count == 5 => "High Card",
+            var ranks when ranks[0].Count == 4 => "Four of a Kind",
+            //Add rest of cards
+        };
+    }
 
     // Function to compare "type" and somehow logically tell which one is biggest
 }
